@@ -1,0 +1,43 @@
+{
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "window.zoomLevel": 0.8,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "files.eol": "\n",
+
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+      "list.errorForeground": "#ad8b8b",
+      "list.warningForeground": "#eff30b",
+
+      "list.hoverBackground": "#4242ff",
+      "list.hoverForeground": "#ffffff",
+
+      "gitDecoration.modifiedResourceForeground": "#bbc232",
+      "gitDecoration.untrackedResourceForeground": "#f7aeae",
+      "gitDecoration.deletedResourceForeground": "#8B4513",
+      "gitDecoration.ignoredResourceForeground": "#C0C0C0",
+      "gitDecoration.conflictingResourceForeground": "#800000"
+    },
+    "files.autoSave": "afterDelay"
+}
+
+
